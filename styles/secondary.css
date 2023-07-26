@@ -1,0 +1,212 @@
+p{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body{
+  padding-top: 20px;
+}
+
+.top-box{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right: 0px;
+  z-index:2;
+  background-color: lightgray;
+ 
+}
+
+
+.main-header-grid{
+  display:grid;
+  grid-template-columns: 200px 1fr 300px;
+  grid-template-rows: 140px;
+  
+  
+  
+}
+
+
+.head1{
+
+object-fit: contain;
+}
+
+.logo {
+height:140px;
+width:100%;
+object-fit: contain;
+vertical-align: top;
+
+}
+
+.head2{
+
+text-align: center;
+}
+
+
+
+.head2-txt{
+  color: rgb(13, 13, 164);
+  font-family: Arial;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size:24px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+  }
+
+  
+  .service-name{
+    font-family: roberto;
+    vertical-align: bottom;
+    font-weight: 700;
+    font-size:36px;
+    color: green;
+    width: 100%;
+    line-height: 24 px;
+    text-align: bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+  .head3{
+    object-fit: contain;
+    vertical-align: bottom;
+    margin-left: 0px;
+      /* display: inline-block; */
+  }
+
+  .head3-txt{
+    font-family: Lumanosimo;
+    color: #ac0808;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+  }
+
+  button{
+    background-color: rgb(192, 223, 245);
+    height: 40px;
+    width: 100px;
+    border-radius:10px;
+    cursor: pointer;
+    margin-right:5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition opacity: 0.3s;
+    vertical-align: centre;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  button:hover{
+    opacity: 0.6;
+  }
+  
+  
+  
+  
+  .button-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 150px; */
+    margin-top:0px;
+    
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom: 2px;
+    /* column gap not needed because of button properies  */
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgrey;
+    }
+    
+    .home-button{
+      
+      
+    }
+
+    
+    .services-button{
+      background-color: pink;
+    }
+    
+    .service-info{
+      position: relative;
+      margin-top: 200px;
+      z-index:1;
+    }
+
+
+
+    .services-table{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-top: 0px;
+      margin-right: 100px;
+      margin-left: 100px;
+      row-gap: 20px;
+      column-gap: 20px;
+      }
+      
+      .services-table-item{
+        padding:20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        background-color: rgb(195, 230, 230);
+      }
+
+    .item-heading{
+      font-family: Lumanosimo;
+      color: darkblue;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .item-subhead{
+      color: black;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px;  
+    }
+
+    .item-txt{
+      color: red;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;  
+    }
+  
