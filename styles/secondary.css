@@ -313,50 +313,19 @@ text-align: center;
       }
 
       /* people */
-      .team1-info{
-        position: relative;
-                z-index:1;
-      }
-
-      
-      .team1-table{
-        display:grid;
-        grid-template-columns: 30px 1fr 30px;
-        /* grid-template-rows: 1fr 1fr 1fr; */
-        margin-top: 0px;
-        margin-right: 20px;
-        margin-left: 20px;
-        row-gap: 0px;
-        column-gap: 0px;
-        background-color: rgb(214, 227, 227);
-        }
-        
-        .team1-table-item{
-          padding:0px;
-          margin-left: 30px;
-          border-width: 1px;
-          border-style: none;
-          border-color: black;
-          
-        }
-
-        .team1-images{
-          
-        }
-  
+     
     .team-container{
       display:grid;
-      grid-template-columns: 20px 1fr 20px;
+      grid-template-columns: 5px 1fr 5px;
       margin-top: 20px;
       margin-right: 20px;
       margin-left: 20px;
-      row-gap: 0px;
+      row-gap: 10px;
       column-gap: 0px;
-      background-color: navy);
+      background-color: navy;
       border-width: 5px;
       border-style: solid;
       border-color: navy;
-
       }
        
 
@@ -365,17 +334,24 @@ text-align: center;
       display:grid;
       grid-template-columns: 1fr 4fr ;
       margin-top: 0px;
+      margin-bottom: 0px;
       margin-right: 0px;
       margin-left: 0px;
-      row-gap: 60px;
+      row-gap: 30px;
       column-gap: 40px;
       background-color: rgb(214, 227, 227);
       padding:20px;
+      border-bottom-width: 5px;
+      border-bottom-color: red;
       
       }
-          
+
+      
+
       .team-table-item{
         padding:0px;
+
+    
               
       }
 
@@ -388,6 +364,7 @@ text-align: center;
         width: 100%;
         margin-top: 10px;
         margin-bottom: 10px;
+     
       }
 
       .person-details{
