@@ -317,38 +317,42 @@ text-align: center;
     .team-container{
       display:grid;
       grid-template-columns: 5px 1fr 5px;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-right: 20px;
       margin-left: 20px;
+      margin-bottom: 20px;
       row-gap: 10px;
       column-gap: 0px;
       background-color: navy;
       border-width: 5px;
       border-style: solid;
       border-color: navy;
+      z-index:  10;
       }
        
 
-    .team-table{
+    .team-table-row{
       
       display:grid;
       grid-template-columns: 1fr 4fr ;
       margin-top: 0px;
       margin-bottom: 0px;
-      margin-right: 0px;
-      margin-left: 0px;
+      margin-right: 50px;
+      margin-left: 50px;
       row-gap: 30px;
       column-gap: 40px;
       background-color: rgb(214, 227, 227);
       padding:20px;
-      border-bottom-width: 5px;
-      border-bottom-color: red;
-      
+      border-top-width: 2px;
+      border-bottom-width: 2px;
+      border-left-width: 5px;
+      border-right-width: 5px;
+      border-color: navy;
+      border-style:solid;
+      z-index:  20;
       }
 
-      .team-table-row{
-
-      }
+     
 
       .team-table-item{
         padding:0px;

@@ -151,23 +151,21 @@ height:200px;
       /* 
       position: relative;
       margin-top: 170px;
-      z-index:1;
+      
       */
-
-
       font-family: roberto,arial;      
       font-weight: 700;
-      
       line-height: 25px;
       margin-bottom: 0px;
-      word-spacing: 10px;
-      margin-left: 0px;
-      margin-right: 0px;
+      word-spacing: 4px;
+      margin-left: 50px;
+      margin-right:50px;
       border: solid;
       border-color: navy;
       border-width:2px;
       background-color: rgb(214, 227, 227);
       padding: 20px;
+      z-index:1;
     }
     
     .bg-info p{
