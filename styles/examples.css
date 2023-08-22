@@ -1,4 +1,6 @@
-.about-box{
+ /* Examples */
+
+ .example-box{
       
   display:block;
   
@@ -18,14 +20,11 @@
   border-top-right-radius: 5px;
   box-shadow: gray 0px 0px 7px 2px;
   box-sizing: border-box;
-
-
-
   }
 
   
   
-  .about-txt{
+  .example-txt{
     font-family: roberto,arial;      
     font-weight: 700;
     line-height: 25px;
@@ -37,10 +36,9 @@
     z-index:1;
   }
   
-  .about-txt p{
+  .example-txt p{
     font-size: 16px;
     margin-bottom: 20px;
   }
-
 
  
