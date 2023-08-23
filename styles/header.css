@@ -106,7 +106,7 @@ body{
     color: white;
     font-weight: 700;
     background-color:grey;
-    height: 40px;
+    height: 45px;
     width: 100px;
     /* border-radius:10px; */
     cursor: pointer;
@@ -117,9 +117,9 @@ body{
     transition:opacity: 0.3s;
     vertical-align: centre;
     font-family: Roboto, Arial;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
-    line-height: 12px;
+    line-height: 14px;
     border-width: 0px;
     border-style: solid;
     border-color: grey;

@@ -1,6 +1,28 @@
 
+.team-photo-container{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-style: none;
+  z-index:  30;
+  }
 
- 
+
+ .team-photo-mar23{
+  position: relative;
+  object-fit: contain;
+  height:300px;
+   /*
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left:100px;
+  */
+
+ }
 
 .team-table-row{
   
